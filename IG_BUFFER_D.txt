@@ -1,0 +1,155 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     FeaturesSetD
+Instances:    3153
+Attributes:   132
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 132 Class):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.21882    47 MFCC5_Dias
+ 0.19326    33 MFCC5_Sys
+ 0.15774    84 atomFreq6
+ 0.14167    20 MFCC6_S2
+ 0.14107    79 atomFreq5
+ 0.1405     89 atomFreq7
+ 0.13385    19 MFCC5_S2
+ 0.12611    94 atomFreq8
+ 0.12474    99 atomFreq9
+ 0.1193    104 atomFreq10
+ 0.11587     6 MFCC6_S1
+ 0.11437    74 atomFreq4
+ 0.11003    34 MFCC6_Sys
+ 0.10989   119 atomFreq13
+ 0.10891    69 atomFreq3
+ 0.10148    48 MFCC6_Dias
+ 0.09903   109 atomFreq11
+ 0.09392   124 atomFreq14
+ 0.0924    114 atomFreq12
+ 0.08972     5 MFCC5_S1
+ 0.08549    64 atomFreq2
+ 0.08334    16 MFCC2_S2
+ 0.08269   129 atomFreq15
+ 0.0779     59 atomFreq1
+ 0.07458    82 atomLen6
+ 0.06706    18 MFCC4_S2
+ 0.06663    87 atomLen7
+ 0.06327    45 MFCC3_Dias
+ 0.06184    55 MFCC13_Dias
+ 0.06126     2 MFCC2_S1
+ 0.05822    35 MFCC7_Sys
+ 0.05675    77 atomLen5
+ 0.0562     92 atomLen8
+ 0.05574    72 atomLen4
+ 0.05099    49 MFCC7_Dias
+ 0.04681    51 MFCC9_Dias
+ 0.04418    97 atomLen9
+ 0.04252     1 ﻿MFCC1_S1
+ 0.04068    54 MFCC12_Dias
+ 0.04051    57 atomLen1
+ 0.03922   107 atomLen11
+ 0.03822    15 MFCC1_S2
+ 0.0381     32 MFCC4_Sys
+ 0.03655   117 atomLen13
+ 0.03639    53 MFCC11_Dias
+ 0.03639    67 atomLen3
+ 0.03624    41 MFCC13_Sys
+ 0.03576    44 MFCC2_Dias
+ 0.03281   102 atomLen10
+ 0.03195    76 atomPos4
+ 0.0313     71 atomPos3
+ 0.03098    62 atomLen2
+ 0.03098    31 MFCC3_Sys
+ 0.03091    61 atomPos1
+ 0.03056    66 atomPos2
+ 0.03046     9 MFCC9_S1
+ 0.02938     4 MFCC4_S1
+ 0.0285     46 MFCC4_Dias
+ 0.02848    43 MFCC1_Dias
+ 0.0268     63 atomAmp2
+ 0.02644    81 atomPos5
+ 0.02532    37 MFCC9_Sys
+ 0.02393    56 MFCC14_Dias
+ 0.02366   127 atomLen15
+ 0.02302   111 atomPos11
+ 0.02277    58 atomAmp1
+ 0.02199    52 MFCC10_Dias
+ 0.0216     68 atomAmp3
+ 0.02129    23 MFCC9_S2
+ 0.02101   126 atomPos14
+ 0.02028    50 MFCC8_Dias
+ 0.01921    42 MFCC14_Sys
+ 0.01893   122 atomLen14
+ 0.01873   112 atomLen12
+ 0.01857    86 atomPos6
+ 0.01787    17 MFCC3_S2
+ 0.01761    40 MFCC12_Sys
+ 0.01681    21 MFCC7_S2
+ 0.01623   131 atomPos15
+ 0.01588    38 MFCC10_Sys
+ 0.01538    96 atomPos8
+ 0.0153     39 MFCC11_Sys
+ 0.01511    30 MFCC2_Sys
+ 0.01498   116 atomPos12
+ 0.01491     3 MFCC3_S1
+ 0.01475    73 atomAmp4
+ 0.01469   106 atomPos10
+ 0.01466    10 MFCC10_S1
+ 0.01425   101 atomPos9
+ 0.01418    29 MFCC1_Sys
+ 0.01226     7 MFCC7_S1
+ 0.0121     91 atomPos7
+ 0.01186    24 MFCC10_S2
+ 0.01113     8 MFCC8_S1
+ 0.01009   121 atomPos13
+ 0.00761    26 MFCC12_S2
+ 0.00706    22 MFCC8_S2
+ 0.00657    14 MFCC14_S1
+ 0.00643    78 atomAmp5
+ 0.00517    13 MFCC13_S1
+ 0.00498    83 atomAmp6
+ 0          12 MFCC12_S1
+ 0         110 atomPhase11
+ 0         125 atomPhase14
+ 0          11 MFCC11_S1
+ 0          70 atomPhase3
+ 0          85 atomPhase6
+ 0         108 atomAmp11
+ 0         128 atomAmp15
+ 0         103 atomAmp10
+ 0          80 atomPhase5
+ 0         105 atomPhase10
+ 0          98 atomAmp9
+ 0         123 atomAmp14
+ 0          90 atomPhase7
+ 0         113 atomAmp12
+ 0          95 atomPhase8
+ 0          60 atomPhase1
+ 0          75 atomPhase4
+ 0         118 atomAmp13
+ 0          36 MFCC8_Sys
+ 0         115 atomPhase12
+ 0          28 MFCC14_S2
+ 0          27 MFCC13_S2
+ 0         100 atomPhase9
+ 0          65 atomPhase2
+ 0         120 atomPhase13
+ 0          88 atomAmp7
+ 0          25 MFCC11_S2
+ 0          93 atomAmp8
+ 0         130 atomPhase15
+
+Selected attributes: 47,33,84,20,79,89,19,94,99,104,6,74,34,119,69,48,109,124,114,5,64,16,129,59,82,18,87,45,55,2,35,77,92,72,49,51,97,1,54,57,107,15,32,117,53,67,41,44,102,76,71,62,31,61,66,9,4,46,43,63,81,37,56,127,111,58,52,68,23,126,50,42,122,112,86,17,40,21,131,38,96,39,30,116,3,73,106,10,101,29,7,91,24,8,121,26,22,14,78,13,83,12,110,125,11,70,85,108,128,103,80,105,98,123,90,113,95,60,75,118,36,115,28,27,100,65,120,88,25,93,130 : 131
+

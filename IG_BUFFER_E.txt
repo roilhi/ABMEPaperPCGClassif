@@ -1,0 +1,136 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     FeaturesSetE
+Instances:    3153
+Attributes:   57
+              ﻿MFCC1_S1
+              MFCC2_S1
+              MFCC3_S1
+              MFCC4_S1
+              MFCC5_S1
+              MFCC6_S1
+              MFCC7_S1
+              MFCC8_S1
+              MFCC9_S1
+              MFCC10_S1
+              MFCC11_S1
+              MFCC12_S1
+              MFCC13_S1
+              MFCC14_S1
+              MFCC1_S2
+              MFCC2_S2
+              MFCC3_S2
+              MFCC4_S2
+              MFCC5_S2
+              MFCC6_S2
+              MFCC7_S2
+              MFCC8_S2
+              MFCC9_S2
+              MFCC10_S2
+              MFCC11_S2
+              MFCC12_S2
+              MFCC13_S2
+              MFCC14_S2
+              MFCC1_Sys
+              MFCC2_Sys
+              MFCC3_Sys
+              MFCC4_Sys
+              MFCC5_Sys
+              MFCC6_Sys
+              MFCC7_Sys
+              MFCC8_Sys
+              MFCC9_Sys
+              MFCC10_Sys
+              MFCC11_Sys
+              MFCC12_Sys
+              MFCC13_Sys
+              MFCC14_Sys
+              MFCC1_Dias
+              MFCC2_Dias
+              MFCC3_Dias
+              MFCC4_Dias
+              MFCC5_Dias
+              MFCC6_Dias
+              MFCC7_Dias
+              MFCC8_Dias
+              MFCC9_Dias
+              MFCC10_Dias
+              MFCC11_Dias
+              MFCC12_Dias
+              MFCC13_Dias
+              MFCC14_Dias
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 57 Class):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.21882    47 MFCC5_Dias
+ 0.19326    33 MFCC5_Sys
+ 0.14167    20 MFCC6_S2
+ 0.13385    19 MFCC5_S2
+ 0.11587     6 MFCC6_S1
+ 0.11003    34 MFCC6_Sys
+ 0.10148    48 MFCC6_Dias
+ 0.08972     5 MFCC5_S1
+ 0.08334    16 MFCC2_S2
+ 0.06706    18 MFCC4_S2
+ 0.06327    45 MFCC3_Dias
+ 0.06184    55 MFCC13_Dias
+ 0.06126     2 MFCC2_S1
+ 0.05822    35 MFCC7_Sys
+ 0.05099    49 MFCC7_Dias
+ 0.04681    51 MFCC9_Dias
+ 0.04252     1 ﻿MFCC1_S1
+ 0.04068    54 MFCC12_Dias
+ 0.03822    15 MFCC1_S2
+ 0.0381     32 MFCC4_Sys
+ 0.03639    53 MFCC11_Dias
+ 0.03624    41 MFCC13_Sys
+ 0.03576    44 MFCC2_Dias
+ 0.03098    31 MFCC3_Sys
+ 0.03046     9 MFCC9_S1
+ 0.02938     4 MFCC4_S1
+ 0.0285     46 MFCC4_Dias
+ 0.02848    43 MFCC1_Dias
+ 0.02532    37 MFCC9_Sys
+ 0.02393    56 MFCC14_Dias
+ 0.02199    52 MFCC10_Dias
+ 0.02129    23 MFCC9_S2
+ 0.02028    50 MFCC8_Dias
+ 0.01921    42 MFCC14_Sys
+ 0.01787    17 MFCC3_S2
+ 0.01761    40 MFCC12_Sys
+ 0.01681    21 MFCC7_S2
+ 0.01588    38 MFCC10_Sys
+ 0.0153     39 MFCC11_Sys
+ 0.01511    30 MFCC2_Sys
+ 0.01491     3 MFCC3_S1
+ 0.01466    10 MFCC10_S1
+ 0.01418    29 MFCC1_Sys
+ 0.01226     7 MFCC7_S1
+ 0.01186    24 MFCC10_S2
+ 0.01113     8 MFCC8_S1
+ 0.00761    26 MFCC12_S2
+ 0.00706    22 MFCC8_S2
+ 0.00657    14 MFCC14_S1
+ 0.00517    13 MFCC13_S1
+ 0          11 MFCC11_S1
+ 0          12 MFCC12_S1
+ 0          27 MFCC13_S2
+ 0          36 MFCC8_Sys
+ 0          25 MFCC11_S2
+ 0          28 MFCC14_S2
+
+Selected attributes: 47,33,20,19,6,34,48,5,16,18,45,55,2,35,49,51,1,54,15,32,53,41,44,31,9,4,46,43,37,56,52,23,50,42,17,40,21,38,39,30,3,10,29,7,24,8,26,22,14,13,11,12,27,36,25,28 : 56
+

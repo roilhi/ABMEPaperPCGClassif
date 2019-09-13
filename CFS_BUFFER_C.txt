@@ -1,0 +1,58 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     FeaturesSetC
+Instances:    3153
+Attributes:   147
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 4521
+	Merit of best subset found:    0.242
+
+Attribute Subset Evaluator (supervised, Class (nominal): 147 Class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1,6,16,18,19,20,33,34,41,43,45,47,48,49,54,55,56,76,82,84,86,87,107,109,129,132,134,138,139,144 : 30
+                     ﻿MFCC1_S1
+                     MFCC6_S1
+                     MFCC2_S2
+                     MFCC4_S2
+                     MFCC5_S2
+                     MFCC6_S2
+                     MFCC5_Sys
+                     MFCC6_Sys
+                     MFCC13_Sys
+                     MFCC1_Dias
+                     MFCC3_Dias
+                     MFCC5_Dias
+                     MFCC6_Dias
+                     MFCC7_Dias
+                     MFCC12_Dias
+                     MFCC13_Dias
+                     MFCC14_Dias
+                     atomPos4
+                     atomLen6
+                     atomFreq6
+                     atomPos6
+                     atomLen7
+                     atomLen11
+                     atomFreq11
+                     atomFreq15
+                     LPC_Coefficient2
+                     LPC_Coefficient4
+                     LPC_Coefficient8
+                     LPC_Coefficient9
+                     LPC_Coefficient14
+

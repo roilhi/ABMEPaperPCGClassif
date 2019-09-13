@@ -1,0 +1,204 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     FeaturesSetB_90
+Instances:    3153
+Attributes:   91
+              atomLen1
+              atomAmp1
+              atomFreq1
+              atomPhase1
+              atomPos1
+              atomLen2
+              atomAmp2
+              atomFreq2
+              atomPhase2
+              atomPos2
+              atomLen3
+              atomAmp3
+              atomFreq3
+              atomPhase3
+              atomPos3
+              atomLen4
+              atomAmp4
+              atomFreq4
+              atomPhase4
+              atomPos4
+              atomLen5
+              atomAmp5
+              atomFreq5
+              atomPhase5
+              atomPos5
+              atomLen6
+              atomAmp6
+              atomFreq6
+              atomPhase6
+              atomPos6
+              atomLen7
+              atomAmp7
+              atomFreq7
+              atomPhase7
+              atomPos7
+              atomLen8
+              atomAmp8
+              atomFreq8
+              atomPhase8
+              atomPos8
+              atomLen9
+              atomAmp9
+              atomFreq9
+              atomPhase9
+              atomPos9
+              atomLen10
+              atomAmp10
+              atomFreq10
+              atomPhase10
+              atomPos10
+              atomLen11
+              atomAmp11
+              atomFreq11
+              atomPhase11
+              atomPos11
+              atomLen12
+              atomAmp12
+              atomFreq12
+              atomPhase12
+              atomPos12
+              atomLen13
+              atomAmp13
+              atomFreq13
+              atomPhase13
+              atomPos13
+              atomLen14
+              atomAmp14
+              atomFreq14
+              atomPhase14
+              atomPos14
+              atomLen15
+              atomAmp15
+              atomFreq15
+              atomPhase15
+              atomPos15
+              LPC_Coefficient1
+              LPC_Coefficient2
+              LPC_Coefficient3
+              LPC_Coefficient4
+              LPC_Coefficient5
+              LPC_Coefficient6
+              LPC_Coefficient7
+              LPC_Coefficient8
+              LPC_Coefficient9
+              LPC_Coefficient10
+              LPC_Coefficient11
+              LPC_Coefficient12
+              LPC_Coefficient13
+              LPC_Coefficient14
+              LPC_Coefficient15
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 91 Class):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.03372     3 atomFreq1
+ 0.0311      8 atomFreq2
+ 0.03108    38 atomFreq8
+ 0.02857    23 atomFreq5
+ 0.02767    28 atomFreq6
+ 0.02728    58 atomFreq12
+ 0.02675    33 atomFreq7
+ 0.02622    25 atomPos5
+ 0.02332    18 atomFreq4
+ 0.02317    81 LPC_Coefficient6
+ 0.02246    13 atomFreq3
+ 0.02205    68 atomFreq14
+ 0.02201    63 atomFreq13
+ 0.02089    48 atomFreq10
+ 0.02048    35 atomPos7
+ 0.02002    53 atomFreq11
+ 0.01998    43 atomFreq9
+ 0.01989    80 LPC_Coefficient5
+ 0.01785    73 atomFreq15
+ 0.01665     2 atomAmp1
+ 0.01661    12 atomAmp3
+ 0.01627    83 LPC_Coefficient8
+ 0.01622    17 atomAmp4
+ 0.01532     7 atomAmp2
+ 0.01529    86 LPC_Coefficient11
+ 0.01474    67 atomAmp14
+ 0.01457    22 atomAmp5
+ 0.01416    57 atomAmp12
+ 0.01392    65 atomPos13
+ 0.01373    76 LPC_Coefficient1
+ 0.0135     84 LPC_Coefficient9
+ 0.01348    72 atomAmp15
+ 0.01346    88 LPC_Coefficient13
+ 0.01322    78 LPC_Coefficient3
+ 0.01312    62 atomAmp13
+ 0.0131     77 LPC_Coefficient2
+ 0.013       1 atomLen1
+ 0.01295    82 LPC_Coefficient7
+ 0.01254    87 LPC_Coefficient12
+ 0.01215    27 atomAmp6
+ 0.01165    55 atomPos11
+ 0.01152    30 atomPos6
+ 0.01141    50 atomPos10
+ 0.01122    70 atomPos14
+ 0.01121    85 LPC_Coefficient10
+ 0.01105    20 atomPos4
+ 0.01103    15 atomPos3
+ 0.01088    79 LPC_Coefficient4
+ 0.01061    89 LPC_Coefficient14
+ 0.00977    32 atomAmp7
+ 0.00938    60 atomPos12
+ 0.00936    37 atomAmp8
+ 0.0089     10 atomPos2
+ 0.00875    45 atomPos9
+ 0.00872    90 LPC_Coefficient15
+ 0.00864    42 atomAmp9
+ 0.00828    40 atomPos8
+ 0.00827    52 atomAmp11
+ 0.00709    47 atomAmp10
+ 0.00679     5 atomPos1
+ 0.00662    75 atomPos15
+ 0.00661     6 atomLen2
+ 0.00609    26 atomLen6
+ 0.00408    11 atomLen3
+ 0.00195    31 atomLen7
+ 0          64 atomPhase13
+ 0           4 atomPhase1
+ 0          74 atomPhase15
+ 0          61 atomLen13
+ 0          66 atomLen14
+ 0          59 atomPhase12
+ 0          71 atomLen15
+ 0          69 atomPhase14
+ 0           9 atomPhase2
+ 0          14 atomPhase3
+ 0          36 atomLen8
+ 0          16 atomLen4
+ 0          29 atomPhase6
+ 0          44 atomPhase9
+ 0          41 atomLen9
+ 0          56 atomLen12
+ 0          34 atomPhase7
+ 0          46 atomLen10
+ 0          24 atomPhase5
+ 0          49 atomPhase10
+ 0          51 atomLen11
+ 0          39 atomPhase8
+ 0          19 atomPhase4
+ 0          21 atomLen5
+ 0          54 atomPhase11
+
+Selected attributes: 3,8,38,23,28,58,33,25,18,81,13,68,63,48,35,53,43,80,73,2,12,83,17,7,86,67,22,57,65,76,84,72,88,78,62,77,1,82,87,27,55,30,50,70,85,20,15,79,89,32,60,37,10,45,90,42,40,52,47,5,75,6,26,11,31,64,4,74,61,66,59,71,69,9,14,36,16,29,44,41,56,34,46,24,49,51,39,19,21,54 : 90
+

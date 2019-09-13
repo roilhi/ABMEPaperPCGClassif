@@ -1,0 +1,137 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1
+Relation:     FeaturesSetA
+Instances:    3153
+Attributes:   91
+              atomLen1
+              atomAmp1
+              atomFreq1
+              atomPhase1
+              atomPos1
+              atomLen2
+              atomAmp2
+              atomFreq2
+              atomPhase2
+              atomPos2
+              atomLen3
+              atomAmp3
+              atomFreq3
+              atomPhase3
+              atomPos3
+              atomLen4
+              atomAmp4
+              atomFreq4
+              atomPhase4
+              atomPos4
+              atomLen5
+              atomAmp5
+              atomFreq5
+              atomPhase5
+              atomPos5
+              atomLen6
+              atomAmp6
+              atomFreq6
+              atomPhase6
+              atomPos6
+              atomLen7
+              atomAmp7
+              atomFreq7
+              atomPhase7
+              atomPos7
+              atomLen8
+              atomAmp8
+              atomFreq8
+              atomPhase8
+              atomPos8
+              atomLen9
+              atomAmp9
+              atomFreq9
+              atomPhase9
+              atomPos9
+              atomLen10
+              atomAmp10
+              atomFreq10
+              atomPhase10
+              atomPos10
+              atomLen11
+              atomAmp11
+              atomFreq11
+              atomPhase11
+              atomPos11
+              atomLen12
+              atomAmp12
+              atomFreq12
+              atomPhase12
+              atomPos12
+              atomLen13
+              atomAmp13
+              atomFreq13
+              atomPhase13
+              atomPos13
+              atomLen14
+              atomAmp14
+              atomFreq14
+              atomPhase14
+              atomPos14
+              atomLen15
+              atomAmp15
+              atomFreq15
+              atomPhase15
+              atomPos15
+              LPC_Coefficient2
+              LPC_Coefficient3
+              LPC_Coefficient4
+              LPC_Coefficient5
+              LPC_Coefficient6
+              LPC_Coefficient7
+              LPC_Coefficient8
+              LPC_Coefficient9
+              LPC_Coefficient10
+              LPC_Coefficient11
+              LPC_Coefficient12
+              LPC_Coefficient13
+              LPC_Coefficient14
+              LPC_Coefficient15
+              LPC_Coefficient16
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Greedy Stepwise (forwards).
+	Start set: no attributes
+	Merit of best subset found:    0.18 
+
+Attribute Subset Evaluator (supervised, Class (nominal): 91 Class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 5,16,20,23,25,26,28,30,31,33,36,51,53,63,73,76,78,80,82,83,84,88 : 22
+                     atomPos1
+                     atomLen4
+                     atomPos4
+                     atomFreq5
+                     atomPos5
+                     atomLen6
+                     atomFreq6
+                     atomPos6
+                     atomLen7
+                     atomFreq7
+                     atomLen8
+                     atomLen11
+                     atomFreq11
+                     atomFreq13
+                     atomFreq15
+                     LPC_Coefficient2
+                     LPC_Coefficient4
+                     LPC_Coefficient6
+                     LPC_Coefficient8
+                     LPC_Coefficient9
+                     LPC_Coefficient10
+                     LPC_Coefficient14
+

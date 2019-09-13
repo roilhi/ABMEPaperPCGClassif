@@ -1,0 +1,96 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     FeaturesSetE
+Instances:    3153
+Attributes:   57
+              ﻿MFCC1_S1
+              MFCC2_S1
+              MFCC3_S1
+              MFCC4_S1
+              MFCC5_S1
+              MFCC6_S1
+              MFCC7_S1
+              MFCC8_S1
+              MFCC9_S1
+              MFCC10_S1
+              MFCC11_S1
+              MFCC12_S1
+              MFCC13_S1
+              MFCC14_S1
+              MFCC1_S2
+              MFCC2_S2
+              MFCC3_S2
+              MFCC4_S2
+              MFCC5_S2
+              MFCC6_S2
+              MFCC7_S2
+              MFCC8_S2
+              MFCC9_S2
+              MFCC10_S2
+              MFCC11_S2
+              MFCC12_S2
+              MFCC13_S2
+              MFCC14_S2
+              MFCC1_Sys
+              MFCC2_Sys
+              MFCC3_Sys
+              MFCC4_Sys
+              MFCC5_Sys
+              MFCC6_Sys
+              MFCC7_Sys
+              MFCC8_Sys
+              MFCC9_Sys
+              MFCC10_Sys
+              MFCC11_Sys
+              MFCC12_Sys
+              MFCC13_Sys
+              MFCC14_Sys
+              MFCC1_Dias
+              MFCC2_Dias
+              MFCC3_Dias
+              MFCC4_Dias
+              MFCC5_Dias
+              MFCC6_Dias
+              MFCC7_Dias
+              MFCC8_Dias
+              MFCC9_Dias
+              MFCC10_Dias
+              MFCC11_Dias
+              MFCC12_Dias
+              MFCC13_Dias
+              MFCC14_Dias
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 820
+	Merit of best subset found:    0.212
+
+Attribute Subset Evaluator (supervised, Class (nominal): 57 Class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1,6,16,18,19,20,33,47,48,54,55,56 : 12
+                     ﻿MFCC1_S1
+                     MFCC6_S1
+                     MFCC2_S2
+                     MFCC4_S2
+                     MFCC5_S2
+                     MFCC6_S2
+                     MFCC5_Sys
+                     MFCC5_Dias
+                     MFCC6_Dias
+                     MFCC12_Dias
+                     MFCC13_Dias
+                     MFCC14_Dias
+

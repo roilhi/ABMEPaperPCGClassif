@@ -1,0 +1,56 @@
+=== Evaluation result ===
+
+Scheme: RF_UNDERSAMPLE : RandomForest
+Options: -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation: FeaturesSetC_IG
+
+
+Correctly Classified Instances         541               85.7369 %
+Incorrectly Classified Instances        90               14.2631 %
+Kappa statistic                          0.6403
+Mean absolute error                      0.2293
+Root mean squared error                  0.3083
+Relative absolute error                 45.8574 %
+Root relative squared error             61.6608 %
+Total Number of Instances              631     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.918    0.159    0.609      0.918    0.732      0.665    0.955     0.852     abnormal
+                 0.841    0.082    0.974      0.841    0.903      0.665    0.955     0.987     normal
+Weighted Avg.    0.857    0.098    0.897      0.857    0.867      0.665    0.955     0.959     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 123  11 |   a = abnormal
+  79 418 |   b = normal
+=== Evaluation result ===
+
+Scheme: RF_SMOTE : RandomForest
+Options: -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation: FeaturesSetC_IG
+
+
+Correctly Classified Instances         568               90.0158 %
+Incorrectly Classified Instances        63                9.9842 %
+Kappa statistic                          0.6991
+Mean absolute error                      0.1805
+Root mean squared error                  0.2683
+Relative absolute error                 36.293  %
+Root relative squared error             53.9574 %
+Total Number of Instances              631     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.754    0.060    0.771      0.754    0.762      0.699    0.957     0.874     abnormal
+                 0.940    0.246    0.934      0.940    0.937      0.699    0.957     0.988     normal
+Weighted Avg.    0.900    0.207    0.899      0.900    0.900      0.699    0.957     0.964     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 101  33 |   a = abnormal
+  30 467 |   b = normal
